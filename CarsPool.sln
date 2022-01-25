@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsPool.Dal", "src\CarsPool.Dal\CarsPool.Dal.csproj", "{754B961F-FE73-4FF4-BFAB-ED02A5B6B501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsPool.Api", "src\CarsPool.Api\CarsPool.Api.csproj", "{EE64AF7F-1251-492C-9E4E-ECF21327CDF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{754B961F-FE73-4FF4-BFAB-ED02A5B6B501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754B961F-FE73-4FF4-BFAB-ED02A5B6B501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754B961F-FE73-4FF4-BFAB-ED02A5B6B501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754B961F-FE73-4FF4-BFAB-ED02A5B6B501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE64AF7F-1251-492C-9E4E-ECF21327CDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE64AF7F-1251-492C-9E4E-ECF21327CDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE64AF7F-1251-492C-9E4E-ECF21327CDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE64AF7F-1251-492C-9E4E-ECF21327CDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {662F4ADD-08D2-4FD3-962A-B593116843A8}
+	EndGlobalSection
+EndGlobal
