@@ -195,7 +195,7 @@ namespace CarsPool.Dal.Repositories
                             }
                         }
 
-                                            // Removing old link
+                    // Removing old link if exists
                     var oldCarDriver = _dbContext.CarDriver.FirstOrDefault(carDriver => carDriver.DriverId == driver.Id && carDriver.CarId == oldCarId);
 
                     if (oldCarDriver != null)

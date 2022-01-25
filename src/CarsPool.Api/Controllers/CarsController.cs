@@ -1,6 +1,6 @@
 ﻿using CarsPool.Api.Abstractions;
-using CarsPool.Api.Filters;
 using CarsPool.Api.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -11,6 +11,7 @@ namespace CarsPool.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CarsController : ControllerBase
     {
         private readonly ICarService _service;
